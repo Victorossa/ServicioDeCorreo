@@ -1,0 +1,10 @@
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\OperacionesDeServicio\bin\Debug\OperacionesDeServicio.dll
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\OperacionesDeServicio\bin\Debug\OperacionesDeServicio.pdb
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\OperacionesDeServicio\bin\Debug\ClasesDeServicio.dll
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\OperacionesDeServicio\bin\Debug\Newtonsoft.Json.dll
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\OperacionesDeServicio\bin\Debug\ClasesDeServicio.pdb
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\OperacionesDeServicio\bin\Debug\Newtonsoft.Json.xml
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\OperacionesDeServicio\obj\Debug\OperacionesDeServicio.csprojAssemblyReference.cache
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\OperacionesDeServicio\obj\Debug\OperacionesDeServicio.csproj.CopyComplete
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\OperacionesDeServicio\obj\Debug\OperacionesDeServicio.dll
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\OperacionesDeServicio\obj\Debug\OperacionesDeServicio.pdb

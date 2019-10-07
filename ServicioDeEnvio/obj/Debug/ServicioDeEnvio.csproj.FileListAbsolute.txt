@@ -1,0 +1,15 @@
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\ServicioDeEnvio\bin\Debug\ServicioDeEnvio.exe.config
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\ServicioDeEnvio\bin\Debug\ServicioDeEnvio.exe
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\ServicioDeEnvio\bin\Debug\ServicioDeEnvio.pdb
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\ServicioDeEnvio\bin\Debug\OperacionesDeServicio.dll
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\ServicioDeEnvio\bin\Debug\ClasesDeServicio.dll
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\ServicioDeEnvio\bin\Debug\Newtonsoft.Json.dll
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\ServicioDeEnvio\bin\Debug\OperacionesDeServicio.pdb
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\ServicioDeEnvio\bin\Debug\ClasesDeServicio.pdb
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\ServicioDeEnvio\bin\Debug\Newtonsoft.Json.xml
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\ServicioDeEnvio\obj\Debug\ServicioDeEnvio.csprojAssemblyReference.cache
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\ServicioDeEnvio\obj\Debug\ServicioDeEnvio.ServicioDeEnvioMensajes.resources
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\ServicioDeEnvio\obj\Debug\ServicioDeEnvio.csproj.GenerateResource.cache
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\ServicioDeEnvio\obj\Debug\ServicioDeEnvio.csproj.CopyComplete
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\ServicioDeEnvio\obj\Debug\ServicioDeEnvio.exe
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\ServicioDeEnvio\obj\Debug\ServicioDeEnvio.pdb

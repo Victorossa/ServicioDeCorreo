@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ClasesDeServicio;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.ServiceProcess;
@@ -14,12 +15,19 @@ namespace ServicioDeEnvio
         /// </summary>
         static void Main()
         {
-            ServiceBase[] ServicesToRun;
-            ServicesToRun = new ServiceBase[]
+            try
             {
+                ServiceBase[] ServicesToRun;
+                ServicesToRun = new ServiceBase[]
+                {
                 new ServicioDeEnvioMensajes()
-            };
-            ServiceBase.Run(ServicesToRun);
+                };
+                ServiceBase.Run(ServicesToRun);
+            }
+            catch (Exception ex)
+            {
+                ELog.save(ex);
+            }
         }
     }
 }

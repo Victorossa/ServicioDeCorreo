@@ -66,6 +66,10 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ClasesDeServicio\ClasesDeServicio.csproj">
+      <Project>{EA4DD708-7F8C-4CAA-B7A1-A6CEA11BC6C1}</Project>
+      <Name>ClasesDeServicio</Name>
+    </ProjectReference>
     <ProjectReference Include="..\OperacionesDeServicio\OperacionesDeServicio.csproj">
       <Project>{b1a8ec20-a470-4839-b3d5-d23ae6e36664}</Project>
       <Name>OperacionesDeServicio</Name>

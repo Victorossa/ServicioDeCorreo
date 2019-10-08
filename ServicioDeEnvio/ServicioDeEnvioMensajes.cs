@@ -8,6 +8,7 @@ using System.Linq;
 using System.ServiceProcess;
 using System.Text;
 using System.Threading.Tasks;
+using ClasesDeServicio;
 using Newtonsoft.Json;
 using OperacionesDeServicio;
 
@@ -38,22 +39,53 @@ namespace ServicioDeEnvio
             //PruebaDeServicio();
 
             //Envio a Servicio de Mensajeria    
-            EnvioAColaDeCorreos();
+            //EnvioAColaDeCorreos();
+            prueba();
         }
 
         private static void EnvioAColaDeCorreos()
         {
-            EnvioMensajeCola envioMensaje = new EnvioMensajeCola();
-            CargarInformacionExcel obj = new CargarInformacionExcel();
-            Object myObjeto = obj.CargarObjeto();
-            string JSONresult = JsonConvert.SerializeObject(myObjeto);
-            envioMensaje.MensajeEnCola(JSONresult);
+            try
+            {
+                EnvioMensajeCola envioMensaje = new EnvioMensajeCola();
+                CargarInformacionExcel obj = new CargarInformacionExcel();
+                Object myObjeto = obj.CargarObjeto();
+                string JSONresult = JsonConvert.SerializeObject(myObjeto);
+                envioMensaje.MensajeEnCola(JSONresult);
+            }
+            catch (Exception ex)
+            {      
+                ELog.save(ex);
+            }             
         }
 
         private static void PruebaDeServicio()
         {
-            PruebaEnvioCarpetaLocal ejecutaPrueba = new PruebaEnvioCarpetaLocal();
-            ejecutaPrueba.EnvioCarpetaLocal();
+            try
+            {
+                PruebaEnvioCarpetaLocal ejecutaPrueba = new PruebaEnvioCarpetaLocal();
+                ejecutaPrueba.EnvioCarpetaLocal();
+            }
+            catch (Exception ex)
+            {   
+                ELog.save(ex);
+            }
+            
+        }
+
+        private static void prueba() 
+        {
+            try
+            {
+                int v1 = 5;
+                int v2 = 0;
+                int v3 = v1 / v2;
+
+            }
+            catch (Exception ex)
+            {
+                ELog.save(ex);
+            }
         }
     }
 }

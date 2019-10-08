@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ClasesDeServicio;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Messaging;
@@ -11,20 +12,28 @@ namespace OperacionesDeServicio
     {
         public void MensajeEnCola(string mensajeJson) 
         {
-            MessageQueue messageQueue = null;
-            if (MessageQueue.Exists(@".\Private$\email"))
+            try
             {
-                messageQueue = new MessageQueue(@".\Private$\email");
-                messageQueue.Label = "Testing Queue";
+                MessageQueue messageQueue = null;
+                if (MessageQueue.Exists(@".\Private$\email"))
+                {
+                    messageQueue = new MessageQueue(@".\Private$\email");
+                    messageQueue.Label = "Testing Queue";
+                }
+                else
+                {
+                    // Create the Queue
+                    MessageQueue.Create(@".\Private$\email");
+                    messageQueue = new MessageQueue(@".\Private$\email");
+                    messageQueue.Label = "Newly Created Queue";
+                }
+                messageQueue.Send(mensajeJson, "Correo JSON");
             }
-            else
+            catch (Exception ex)
             {
-                // Create the Queue
-                MessageQueue.Create(@".\Private$\email");
-                messageQueue = new MessageQueue(@".\Private$\email");
-                messageQueue.Label = "Newly Created Queue";
+                ELog.save(ex);
             }
-            messageQueue.Send(mensajeJson, "Correo JSON");
+            
         }
                    
     }

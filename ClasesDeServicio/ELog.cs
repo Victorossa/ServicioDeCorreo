@@ -12,21 +12,35 @@ namespace ClasesDeServicio
     {
         public static void save(Exception ex)
         {
-            string fecha = System.DateTime.Now.ToString("yyyy-MM-dd");
-            string hora = System.DateTime.Now.ToString("HH:mm:ss");
-            string path = HttpContext.Current.Server.MapPath(@"..\log\log.txt");
+            try
+            {
+                string fecha = System.DateTime.Now.ToString("yyyy-MM-dd");
+                string hora = System.DateTime.Now.ToString("HH:mm:ss");
+                string pathCarpeta = @"c:\logService";
+                string path = @"c:\logService\log.txt";
 
-            //@"C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\log\log.txt";
+                if (!Directory.Exists(pathCarpeta))
+                {
+                    Directory.CreateDirectory(pathCarpeta);
+                }
+                if (!File.Exists(path))
+                {
+                    File.Create(path);
+                }
 
-            StreamWriter sw = new StreamWriter(path, true);
-
-            StackTrace stacktrace = new StackTrace();
-            sw.WriteLine(fecha + hora);
-            sw.WriteLine(stacktrace.GetFrame(1).GetMethod().Name + " - " + ex.Message);
-            sw.WriteLine("");
-
-            sw.Flush();
-            sw.Close();
+                StreamWriter sw = new StreamWriter(path, true);
+                StackTrace stacktrace = new StackTrace();
+                sw.WriteLine(fecha + hora);
+                sw.WriteLine(stacktrace.GetFrame(1).GetMethod().Name + " - " + ex.Message);
+                sw.WriteLine("");
+                sw.Flush();
+                sw.Close();
+            }
+            catch (Exception)
+            {  
+                throw;
+            }
+            
         }
     }
 }

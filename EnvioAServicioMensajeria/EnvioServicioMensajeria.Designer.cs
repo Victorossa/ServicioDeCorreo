@@ -1,6 +1,6 @@
-﻿namespace ServicioDeEnvio
+﻿namespace EnvioAServicioMensajeria
 {
-    partial class ServicioDeEnvioMensajes
+    partial class EnvioServicioMensajeria
     {
         /// <summary> 
         /// Variable del diseñador necesaria.
@@ -28,24 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.LapsoServicioEnvio = new System.Timers.Timer();
-            ((System.ComponentModel.ISupportInitialize)(this.LapsoServicioEnvio)).BeginInit();
+            this.LapsoEnvioServicioMensajeria = new System.Timers.Timer();
+            ((System.ComponentModel.ISupportInitialize)(this.LapsoEnvioServicioMensajeria)).BeginInit();
             // 
-            // LapsoServicioEnvio
+            // LapsoEnvioServicioMensajeria
             // 
-            this.LapsoServicioEnvio.Enabled = true;
-            this.LapsoServicioEnvio.Interval = 10000D;
-            this.LapsoServicioEnvio.Elapsed += new System.Timers.ElapsedEventHandler(this.LapsoServicioEnvio_Elapsed);
+            this.LapsoEnvioServicioMensajeria.Enabled = true;
+            this.LapsoEnvioServicioMensajeria.Interval = 3000D;
+            this.LapsoEnvioServicioMensajeria.Elapsed += new System.Timers.ElapsedEventHandler(this.LapsoEnvioServicioMensajeria_Elapsed);
             // 
-            // ServicioDeEnvioMensajes
+            // EnvioServicioMensajeria
             // 
-            this.ServiceName = "ServicioDeEnvioMensajes";
-            ((System.ComponentModel.ISupportInitialize)(this.LapsoServicioEnvio)).EndInit();
+            this.ServiceName = "EnvioServicioMensajeria";
+            ((System.ComponentModel.ISupportInitialize)(this.LapsoEnvioServicioMensajeria)).EndInit();
 
         }
 
         #endregion
 
-        private System.Timers.Timer LapsoServicioEnvio;
+        private System.Timers.Timer LapsoEnvioServicioMensajeria;
     }
 }

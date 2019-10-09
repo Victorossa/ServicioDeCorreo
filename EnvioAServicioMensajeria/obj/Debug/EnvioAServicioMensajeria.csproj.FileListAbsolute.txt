@@ -1,0 +1,17 @@
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\EnvioAServicioMensajeria\bin\Debug\EnvioAServicioMensajeria.exe.config
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\EnvioAServicioMensajeria\bin\Debug\EnvioAServicioMensajeria.exe
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\EnvioAServicioMensajeria\bin\Debug\EnvioAServicioMensajeria.pdb
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\EnvioAServicioMensajeria\bin\Debug\ClasesDeServicio.dll
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\EnvioAServicioMensajeria\bin\Debug\OperacionesDeServicio.dll
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\EnvioAServicioMensajeria\bin\Debug\Newtonsoft.Json.dll
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\EnvioAServicioMensajeria\bin\Debug\ClasesDeServicio.pdb
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\EnvioAServicioMensajeria\bin\Debug\OperacionesDeServicio.pdb
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\EnvioAServicioMensajeria\bin\Debug\Newtonsoft.Json.xml
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\EnvioAServicioMensajeria\obj\Debug\EnvioAServicioMensajeria.csprojAssemblyReference.cache
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\EnvioAServicioMensajeria\obj\Debug\EnvioAServicioMensajeria.EnvioServicioMensajeria.resources
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\EnvioAServicioMensajeria\obj\Debug\EnvioAServicioMensajeria.csproj.GenerateResource.cache
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\EnvioAServicioMensajeria\obj\Debug\EnvioAServicioMensajeria.csproj.CopyComplete
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\EnvioAServicioMensajeria\obj\Debug\EnvioAServicioMensajeria.exe
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\EnvioAServicioMensajeria\obj\Debug\EnvioAServicioMensajeria.pdb
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\EnvioAServicioMensajeria\bin\Debug\PruebasServ.dll
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\EnvioAServicioMensajeria\bin\Debug\PruebasServ.pdb

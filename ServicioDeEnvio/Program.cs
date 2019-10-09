@@ -20,7 +20,7 @@ namespace ServicioDeEnvio
                 ServiceBase[] ServicesToRun;
                 ServicesToRun = new ServiceBase[]
                 {
-                new ServicioDeEnvioMensajes()
+                new ServicioDeEnvioACola()
                 };
                 ServiceBase.Run(ServicesToRun);
             }

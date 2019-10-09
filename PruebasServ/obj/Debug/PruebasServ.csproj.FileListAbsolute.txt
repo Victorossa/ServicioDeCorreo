@@ -1,0 +1,12 @@
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\PruebasServ\bin\Debug\PruebasServ.dll
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\PruebasServ\bin\Debug\PruebasServ.pdb
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\PruebasServ\bin\Debug\ClasesDeServicio.dll
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\PruebasServ\bin\Debug\OperacionesDeServicio.dll
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\PruebasServ\bin\Debug\Newtonsoft.Json.dll
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\PruebasServ\bin\Debug\ClasesDeServicio.pdb
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\PruebasServ\bin\Debug\OperacionesDeServicio.pdb
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\PruebasServ\bin\Debug\Newtonsoft.Json.xml
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\PruebasServ\obj\Debug\PruebasServ.csproj.CopyComplete
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\PruebasServ\obj\Debug\PruebasServ.dll
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\PruebasServ\obj\Debug\PruebasServ.pdb
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\PruebasServ\obj\Debug\PruebasServ.csprojAssemblyReference.cache

@@ -22,7 +22,7 @@ namespace OperacionesDeServicio
                 }
                 else
                 {
-                    // Create the Queue
+                    
                     MessageQueue.Create(@".\Private$\email");
                     messageQueue = new MessageQueue(@".\Private$\email");
                     messageQueue.Label = "Newly Created Queue";

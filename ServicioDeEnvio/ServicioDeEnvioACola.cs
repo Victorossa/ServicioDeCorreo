@@ -11,12 +11,14 @@ using System.Threading.Tasks;
 using ClasesDeServicio;
 using Newtonsoft.Json;
 using OperacionesDeServicio;
+using PruebasServ;
+
 
 namespace ServicioDeEnvio
 {
-    partial class ServicioDeEnvioMensajes : ServiceBase
+    partial class ServicioDeEnvioACola : ServiceBase
     {
-        public ServicioDeEnvioMensajes()
+        public ServicioDeEnvioACola()
         {
             InitializeComponent();
         }
@@ -36,11 +38,15 @@ namespace ServicioDeEnvio
         private void LapsoServicioEnvio_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
         {
             //Pruebas a Carpeta Local
-            //PruebaDeServicio();
+            PruebaServiciosEnvio pruebas = new PruebaServiciosEnvio();
+            //Prueba Funcionamiento de Servicio
+            //pruebas.PruebaDeServicio();
+            //Pruebas de Servicio de Registro Log
+            //pruebas.PruebaLog();
 
             //Envio a Servicio de Mensajeria    
             //EnvioAColaDeCorreos();
-            prueba();
+
         }
 
         private static void EnvioAColaDeCorreos()
@@ -54,38 +60,13 @@ namespace ServicioDeEnvio
                 envioMensaje.MensajeEnCola(JSONresult);
             }
             catch (Exception ex)
-            {      
-                ELog.save(ex);
-            }             
-        }
-
-        private static void PruebaDeServicio()
-        {
-            try
-            {
-                PruebaEnvioCarpetaLocal ejecutaPrueba = new PruebaEnvioCarpetaLocal();
-                ejecutaPrueba.EnvioCarpetaLocal();
-            }
-            catch (Exception ex)
-            {   
-                ELog.save(ex);
-            }
-            
-        }
-
-        private static void prueba() 
-        {
-            try
-            {
-                int v1 = 5;
-                int v2 = 0;
-                int v3 = v1 / v2;
-
-            }
-            catch (Exception ex)
             {
                 ELog.save(ex);
             }
         }
+
+
+
+
     }
 }

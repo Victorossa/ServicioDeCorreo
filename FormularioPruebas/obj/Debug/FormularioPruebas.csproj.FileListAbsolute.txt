@@ -1,0 +1,16 @@
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\FormularioPruebas\bin\Debug\FormularioPruebas.exe.config
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\FormularioPruebas\bin\Debug\FormularioPruebas.exe
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\FormularioPruebas\bin\Debug\FormularioPruebas.pdb
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\FormularioPruebas\bin\Debug\ClasesDeServicio.dll
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\FormularioPruebas\bin\Debug\Newtonsoft.Json.dll
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\FormularioPruebas\bin\Debug\OperacionesDeServicio.dll
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\FormularioPruebas\bin\Debug\ClasesDeServicio.pdb
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\FormularioPruebas\bin\Debug\OperacionesDeServicio.pdb
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\FormularioPruebas\bin\Debug\Newtonsoft.Json.xml
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\FormularioPruebas\obj\Debug\FormularioPruebas.csprojAssemblyReference.cache
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\FormularioPruebas\obj\Debug\FormularioPruebas.Form1.resources
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\FormularioPruebas\obj\Debug\FormularioPruebas.Properties.Resources.resources
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\FormularioPruebas\obj\Debug\FormularioPruebas.csproj.GenerateResource.cache
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\FormularioPruebas\obj\Debug\FormularioPruebas.csproj.CopyComplete
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\FormularioPruebas\obj\Debug\FormularioPruebas.exe
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\FormularioPruebas\obj\Debug\FormularioPruebas.pdb

@@ -27,7 +27,7 @@ namespace OperacionesDeServicio
 
             xlApp = new Microsoft.Office.Interop.Excel.Application();
             xlWorkBook = xlApp.Workbooks.Open(@"C:\Users\programador1\Desktop\Proyecto Comedal\OrigenJSON.xlsx", 0, true, 5, "", "", true, Microsoft.Office.Interop.Excel.XlPlatform.xlWindows, "\t", false, false, 0, true, 1, 0);
-            xlWorkSheet = (Microsoft.Office.Interop.Excel.Worksheet)xlWorkBook.Worksheets["Hoja1"];
+            xlWorkSheet = (Microsoft.Office.Interop.Excel.Worksheet)xlWorkBook.Worksheets["CorreoSimple"];
 
 
             var SubjectVal = xlWorkSheet.Columns.Find("Subject").Cells.Column;
@@ -51,17 +51,13 @@ namespace OperacionesDeServicio
             var RecipientsVal1 = xlWorkSheet.Columns.Find("Recipients/1").Cells.Column;
             string Recipients1 = xlWorkSheet.Cells[2, RecipientsVal1].Text.ToString();
 
-            var RecipientsVal2 = xlWorkSheet.Columns.Find("Recipients/2").Cells.Column;
-            string Recipients2 = xlWorkSheet.Cells[2, RecipientsVal2].Text.ToString();
-
-
 
             CorreoSimple objJson = new CorreoSimple();
             objJson.Subject = Subject;
             objJson.From = From;
             objJson.Template = new Template() { Type = Template1, Value = Template2 };
             objJson.ReplyTo = ReplyTo;
-            objJson.Recipients = new List<Recipients> { new Recipients() { To = Recipients }, new Recipients() { To = Recipients1 }, new Recipients() { To = Recipients2 } };
+            objJson.Recipients = new List<Recipients> { new Recipients() { To = Recipients }, new Recipients() { To = Recipients1 } };
             return objJson;
         }
 
@@ -74,7 +70,7 @@ namespace OperacionesDeServicio
 
             xlApp = new Microsoft.Office.Interop.Excel.Application();
             xlWorkBook = xlApp.Workbooks.Open(@"C:\Users\programador1\Desktop\Proyecto Comedal\OrigenJSON.xlsx", 0, true, 5, "", "", true, Microsoft.Office.Interop.Excel.XlPlatform.xlWindows, "\t", false, false, 0, true, 1, 0);
-            xlWorkSheet = (Microsoft.Office.Interop.Excel.Worksheet)xlWorkBook.Worksheets["Hoja2"];
+            xlWorkSheet = (Microsoft.Office.Interop.Excel.Worksheet)xlWorkBook.Worksheets["CorreoComplejo"];
 
 
             var SubjectVal = xlWorkSheet.Columns.Find("Subject").Cells.Column;
@@ -92,23 +88,20 @@ namespace OperacionesDeServicio
             var TemplateVal2 = xlWorkSheet.Columns.Find("Template/Value").Cells.Column;
             string Template2 = xlWorkSheet.Cells[2, TemplateVal2].Text.ToString();
 
-            var AttachmentVal1 = xlWorkSheet.Columns.Find("Attachment/Content/0").Cells.Column;
-            string Attachment1 = xlWorkSheet.Cells[2, AttachmentVal1].Text.ToString();
-
-            var AttachmentVal2 = xlWorkSheet.Columns.Find("Attachment/Filename/0").Cells.Column;
-            string Attachment2 = xlWorkSheet.Cells[2, AttachmentVal2].Text.ToString();
-
-            var AttachmentVal3 = xlWorkSheet.Columns.Find("Attachment/ContentType/0").Cells.Column;
-            string Attachment3 = xlWorkSheet.Cells[2, AttachmentVal3].Text.ToString();
-
             var RecipientsVal = xlWorkSheet.Columns.Find("Recipients/0").Cells.Column;
             string Recipients = xlWorkSheet.Cells[2, RecipientsVal].Text.ToString();
 
             var RecipientsVal1 = xlWorkSheet.Columns.Find("Recipients/1").Cells.Column;
             string Recipients1 = xlWorkSheet.Cells[2, RecipientsVal1].Text.ToString();
 
-            var RecipientsVal2 = xlWorkSheet.Columns.Find("Recipients/2").Cells.Column;
-            string Recipients2 = xlWorkSheet.Cells[2, RecipientsVal2].Text.ToString();
+            var AttachmentVal1 = xlWorkSheet.Columns.Find("Attachment/Path/0").Cells.Column;
+            string Attachment1 = xlWorkSheet.Cells[2, AttachmentVal1].Text.ToString();
+
+            var AttachmentVal2 = xlWorkSheet.Columns.Find("Attachment/Filename/0").Cells.Column;
+            string Attachment2 = xlWorkSheet.Cells[2, AttachmentVal2].Text.ToString();
+
+
+
 
 
 
@@ -117,8 +110,8 @@ namespace OperacionesDeServicio
             objJsonComplejo.From = From;
             objJsonComplejo.Template = new Template() { Type = Template1, Value = Template2 };
             objJsonComplejo.ReplyTo = ReplyTo;
-            objJsonComplejo.Attachments = new List<Attachment> { new Attachment() { Content = Attachment1, Filename = Attachment2, ContentType = Attachment3 } };
-            objJsonComplejo.Recipients = new List<Recipients> { new Recipients() { To = Recipients }, new Recipients() { To = Recipients1 }, new Recipients() { To = Recipients2 } };
+            objJsonComplejo.Recipients = new List<Recipients> { new Recipients() { To = Recipients }, new Recipients() { To = Recipients1 } };
+            objJsonComplejo.Attachments = new List<Attachment> { new Attachment() { Path = Attachment1, Filename = Attachment2 } };
 
             return objJsonComplejo;
         }

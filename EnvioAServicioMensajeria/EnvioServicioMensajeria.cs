@@ -41,33 +41,14 @@ namespace EnvioAServicioMensajeria
             //pruebas.PruebaDeServicio();
             //Pruebas de Servicio de Registro Log
             //pruebas.PruebaLog();
-            ReceiveMessage();
+            EnviarMensajeServicioMensajeria();
 
         }
 
-        public void MensajeAMasivian()
+        public void EnviarMensajeServicioMensajeria()
         {
-            //Me conecto a mi pc
-            MessageQueue myQueue = new MessageQueue(".\\myQueue");
-
-            myQueue.Formatter = new XmlMessageFormatter(new Type[] { typeof(string) });
-
-            Message myMessage = myQueue.Receive();
-
-            //log.Info(this.Nombre, "Recibiendo mensaje.");
-            //var msg = msMq.Receive();
-
-            //string json =  = msg.Body.ToString();
-            //log.Debug(Nombre, "Body", msg.Body.ToString());
-        }
-
-
-        public void ReceiveMessage()
-        {
-            // Connect to the a queue on the local computer.
+            
             MessageQueue myQueue = new MessageQueue(@".\Private$\email");
-
-            // Set the formatter to indicate body contains an Order.
             myQueue.Formatter = new XmlMessageFormatter(new Type[]
                 {typeof(string)});
 
@@ -75,7 +56,8 @@ namespace EnvioAServicioMensajeria
             {
                 var msg = myQueue.Receive();
                 string json = msg.Body.ToString();
-
+                EnvioMensajeServicioDeCorreo obj = new EnvioMensajeServicioDeCorreo();
+                obj.PostEnvioMensajeJSONAsync(json);
             }
 
             catch (MessageQueueException)

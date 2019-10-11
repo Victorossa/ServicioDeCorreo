@@ -8,8 +8,7 @@ namespace ClasesDeServicio
 {
     public class Attachment
     {
-        public string Content { get; set; }
+        public string Path { get; set; }
         public string Filename { get; set; }
-        public string ContentType { get; set; }
     }
 }

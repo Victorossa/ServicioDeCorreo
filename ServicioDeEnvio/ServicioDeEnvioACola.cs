@@ -45,7 +45,7 @@ namespace ServicioDeEnvio
             //pruebas.PruebaLog();
 
             //Envio a Servicio de Mensajeria    
-            //EnvioAColaDeCorreos();
+            EnvioAColaDeCorreos();
 
         }
 
@@ -56,7 +56,7 @@ namespace ServicioDeEnvio
                 EnvioMensajeCola envioMensaje = new EnvioMensajeCola();
                 CargarInformacionExcel obj = new CargarInformacionExcel();
                 Object myObjeto = obj.CargarObjeto();
-                string JSONresult = JsonConvert.SerializeObject(myObjeto);
+                string JSONresult = JsonConvert.SerializeObject(myObjeto, Formatting.Indented);
                 envioMensaje.MensajeEnCola(JSONresult);
             }
             catch (Exception ex)

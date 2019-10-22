@@ -8,3 +8,5 @@ C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\Operaciones
 C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\OperacionesDeServicio\obj\Debug\OperacionesDeServicio.csproj.CopyComplete
 C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\OperacionesDeServicio\obj\Debug\OperacionesDeServicio.dll
 C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\OperacionesDeServicio\obj\Debug\OperacionesDeServicio.pdb
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\OperacionesDeServicio\obj\Debug\OperacionesDeServicio.RecursosDelSistema.resources
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\OperacionesDeServicio\obj\Debug\OperacionesDeServicio.csproj.GenerateResource.cache

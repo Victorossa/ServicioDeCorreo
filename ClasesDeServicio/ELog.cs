@@ -30,7 +30,7 @@ namespace ClasesDeServicio
 
                 StreamWriter sw = new StreamWriter(path, true);
                 StackTrace stacktrace = new StackTrace();
-                sw.WriteLine(fecha + hora);
+                sw.WriteLine(fecha + ' ' + hora);
                 sw.WriteLine(stacktrace.GetFrame(1).GetMethod().Name + " - " + ex.Message);
                 sw.WriteLine("");
                 sw.Flush();

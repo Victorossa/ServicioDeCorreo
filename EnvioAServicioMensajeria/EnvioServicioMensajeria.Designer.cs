@@ -34,7 +34,7 @@
             // LapsoEnvioServicioMensajeria
             // 
             this.LapsoEnvioServicioMensajeria.Enabled = true;
-            this.LapsoEnvioServicioMensajeria.Interval = 30000D;
+            this.LapsoEnvioServicioMensajeria.Interval = 5000D;
             this.LapsoEnvioServicioMensajeria.Elapsed += new System.Timers.ElapsedEventHandler(this.LapsoEnvioServicioMensajeria_Elapsed);
             // 
             // EnvioServicioMensajeria

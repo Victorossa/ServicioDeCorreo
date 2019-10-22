@@ -55,6 +55,11 @@
     <Compile Include="EnvioMensajeServicioDeCorreo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PruebaEnvioCarpetaLocal.cs" />
+    <Compile Include="RecursosDelSistema.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RecursosDelSistema.resx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -64,6 +69,12 @@
       <Project>{ea4dd708-7f8c-4caa-b7a1-a6cea11bc6c1}</Project>
       <Name>ClasesDeServicio</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="RecursosDelSistema.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>RecursosDelSistema.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

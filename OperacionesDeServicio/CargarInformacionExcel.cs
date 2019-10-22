@@ -95,7 +95,7 @@ namespace OperacionesDeServicio
             string Recipients1 = xlWorkSheet.Cells[2, RecipientsVal1].Text.ToString();
 
             var AttachmentVal1 = xlWorkSheet.Columns.Find("Attachment/Path/0").Cells.Column;
-            string Attachment1 = xlWorkSheet.Cells[2, AttachmentVal1].Text.ToString();
+            string Attachment1 = "data:application/pdf;base64, " + xlWorkSheet.Cells[2, AttachmentVal1].Text.ToString();
 
             var AttachmentVal2 = xlWorkSheet.Columns.Find("Attachment/Filename/0").Cells.Column;
             string Attachment2 = xlWorkSheet.Cells[2, AttachmentVal2].Text.ToString();

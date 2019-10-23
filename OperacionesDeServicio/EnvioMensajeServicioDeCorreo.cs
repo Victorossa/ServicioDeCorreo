@@ -19,10 +19,11 @@ namespace OperacionesDeServicio
         private string pathAPI, Estado;
         private static HttpClient clientAPIServcio;
 
+
         public EnvioMensajeServicioDeCorreo()
         {
             //***********************//
-            pathAPI = RecursosDelSistema.path;
+            pathAPI = ConfiguracionesDelServicio.path;
             //***********************//
             clientAPIServcio = new HttpClient();
             //Trae la base de URL
@@ -37,13 +38,13 @@ namespace OperacionesDeServicio
             {
                 string respuesta = string.Empty;
                 //***********************//
-                string accessToken = RecursosDelSistema.accessToken;
+                string accessToken = ConfiguracionesDelServicio.accessToken;
                 //***********************//
                 HttpClient client = new HttpClient();
                 System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12 | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls;
                 client.DefaultRequestHeaders.Accept.Clear();
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue(RecursosDelSistema.type, accessToken);
+                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue(ConfiguracionesDelServicio.type, accessToken);
                 HttpResponseMessage response = await client.PostAsync(pathAPI, new StringContent(mensajeJSON, Encoding.UTF8, "application/json"));
                 CorreoDeserializadoLog deserializedMensaje = JsonConvert.DeserializeObject<CorreoDeserializadoLog>(mensajeJSON);
 
@@ -52,7 +53,7 @@ namespace OperacionesDeServicio
                 {
                     respuesta = await response.Content.ReadAsStringAsync();
                     Estado = "Ok";
-                    ProcesarRespuesta(respuesta, deserializedMensaje,Estado);
+                    ProcesarRespuesta(respuesta, deserializedMensaje, Estado);
                 }
                 else
                 {
@@ -70,7 +71,7 @@ namespace OperacionesDeServicio
 
         }
 
-        private static void ProcesarRespuesta(string respuesta, CorreoDeserializadoLog deserializedMensaje,string Estado)
+        private static void ProcesarRespuesta(string respuesta, CorreoDeserializadoLog deserializedMensaje, string Estado)
         {
             RootObject desSerializaRespuesta = JsonConvert.DeserializeObject<RootObject>(respuesta);
 

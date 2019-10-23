@@ -55,10 +55,10 @@
     <Compile Include="EnvioMensajeServicioDeCorreo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PruebaEnvioCarpetaLocal.cs" />
-    <Compile Include="RecursosDelSistema.Designer.cs">
+    <Compile Include="ConfiguracionesDelServicio.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>RecursosDelSistema.resx</DependentUpon>
+      <DependentUpon>ConfiguracionesDelServicio.resx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -71,9 +71,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="RecursosDelSistema.resx">
+    <EmbeddedResource Include="ConfiguracionesDelServicio.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>RecursosDelSistema.Designer.cs</LastGenOutput>
+      <LastGenOutput>ConfiguracionesDelServicio.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

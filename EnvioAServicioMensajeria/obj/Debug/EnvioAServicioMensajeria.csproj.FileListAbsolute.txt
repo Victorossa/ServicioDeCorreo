@@ -15,3 +15,4 @@ C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\EnvioAServi
 C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\EnvioAServicioMensajeria\obj\Debug\EnvioAServicioMensajeria.pdb
 C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\EnvioAServicioMensajeria\bin\Debug\PruebasServ.dll
 C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\EnvioAServicioMensajeria\bin\Debug\PruebasServ.pdb
+C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\EnvioAServicioMensajeria\obj\Debug\EnvioAServicioMensajeria.RecursosDelServicio.resources

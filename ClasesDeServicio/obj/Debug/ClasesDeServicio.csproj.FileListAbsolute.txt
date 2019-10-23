@@ -1,5 +1,4 @@
 C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\ClasesDeServicio\bin\Debug\ClasesDeServicio.dll
 C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\ClasesDeServicio\bin\Debug\ClasesDeServicio.pdb
-C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\ClasesDeServicio\obj\Debug\ClasesDeServicio.csprojAssemblyReference.cache
 C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\ClasesDeServicio\obj\Debug\ClasesDeServicio.dll
 C:\Users\programador1\Desktop\Proyecto Comedal\EnvioDeCorreosMasivos\ClasesDeServicio\obj\Debug\ClasesDeServicio.pdb

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace OperacionesDeServicio {
+namespace EnvioAServicioMensajeria {
     using System;
     
     
@@ -22,14 +22,14 @@ namespace OperacionesDeServicio {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class RecursosDelSistema {
+    internal class RecursosDelServicio {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal RecursosDelSistema() {
+        internal RecursosDelServicio() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace OperacionesDeServicio {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("OperacionesDeServicio.RecursosDelSistema", typeof(RecursosDelSistema).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("EnvioAServicioMensajeria.RecursosDelServicio", typeof(RecursosDelServicio).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,29 +61,11 @@ namespace OperacionesDeServicio {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a QXBpX0NvbWVkYWw6RkhTOVdudDlzbA==.
+        ///   Busca una cadena traducida similar a 6000.
         /// </summary>
-        internal static string accessToken {
+        internal static string TimeInterval {
             get {
-                return ResourceManager.GetString("accessToken", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a https://api.masiv.masivian.com/email/v1/delivery.
-        /// </summary>
-        internal static string path {
-            get {
-                return ResourceManager.GetString("path", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a Basic.
-        /// </summary>
-        internal static string type {
-            get {
-                return ResourceManager.GetString("type", resourceCulture);
+                return ResourceManager.GetString("TimeInterval", resourceCulture);
             }
         }
     }

@@ -58,22 +58,19 @@ namespace FormularioPruebas
             {
                 var msg = myQueue.Receive();
                 string json = msg.Body.ToString();
-                EnvioMensajeServicioDeCorreo obj = new EnvioMensajeServicioDeCorreo();
-                obj.PostEnvioMensajeJSONAsync(json);
+                if (json != null)
+                {
+                    EnvioMensajeServicioDeCorreo obj = new EnvioMensajeServicioDeCorreo();
+                    obj.PostEnvioMensajeJSONAsync(json);
+                }
+               
             }
 
             catch (MessageQueueException)
             {
-                // Handle Message Queuing exceptions.
+                
             }
-
-            // Handle invalid serialization format.
-            catch (InvalidOperationException e)
-            {
-                Console.WriteLine(e.Message);
-            }
-
-            // Catch other exceptions as necessary.
+            
 
             return;
         }
